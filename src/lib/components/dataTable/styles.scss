@@ -1,0 +1,125 @@
+& .MuiBox-wrapNoResult {
+  text-align: center;
+  color: #373737;
+
+  & .MuiTypography-noResultFound {
+    margin-top: 24;
+    font-weight: 400;
+    font-size: 24;
+  }
+
+  & .MuiTypography-plsTryAnotherKeyword {
+    font-weight: 300;
+    font-size: 14;
+  }
+}
+
+& {
+  border: none;
+
+  & .MuiDataGrid-iconSeparator {
+    display: none;
+  }
+
+  & .MuiDataGrid-main {
+    width: 0;
+    min-width: 100%;
+  }
+
+  & .MuiDataGrid-columnHeaders {
+    border-radius: 10px;
+    height: 44px;
+    border-bottom: 1px solid transparent;
+
+    & .MuiDataGrid-columnHeader {
+      background-color: #F1F1F1;
+
+      &:focus,
+      &:focus-within {
+        outline: solid transparent 1px;
+      }
+
+      & .MuiDataGrid-columnHeaderTitle {
+        font-size: 1.4rem;
+        color: #8A8A8A;
+        text-transform: uppercase;
+      }
+    }
+  }
+
+  & .MuiDataGrid-row {
+    &.Mui-selected {
+      background-color: transparent;
+
+      &.Mui-hovered,
+      &:hover {
+        background-color: transparent;
+      }
+    }
+
+    &.Mui-hovered,
+    &:hover {
+      background-color: transparent;
+    }
+  }
+
+  & .MuiDataGrid-cell {
+    border-color: #E0E0E0;
+
+    &:focus,
+    &:focus-within {
+      outline: none;
+    }
+
+    & .MuiDataGrid-cellContent {
+      font-size: 1.6rem;
+      font-weight: 300;
+      color: #373737;
+    }
+  }
+
+  & .MuiDataGrid-cellCheckbox .MuiCheckbox-root > span,
+  & .MuiDataGrid-columnHeader .MuiCheckbox-root > span {
+    border: 2px solid #8A8A8A;
+  }
+
+  & .MuiDataGrid-cellCheckbox .MuiCheckbox-root.Mui-disabled > span {
+    border: 2px solid #E0E0E0;
+  }
+
+  & .MuiDataGrid-cellCheckbox .MuiCheckbox-root.Mui-checked > span,
+  & .MuiDataGrid-columnHeader .MuiCheckbox-root.Mui-checked > span {
+    border: none;
+  }
+
+  & .MuiDataGrid-overlayWrapperInner {
+    height: 210;
+  }
+
+  & .MuiDataGrid-cellContent,
+  & .MuiDataGrid-cell--withRenderer {
+    font-weight: 300;
+    font-size: 1.6rem;
+  }
+
+  & .MuiDataGrid-footerContainer {
+    border-color: transparent;
+  }
+
+  & .MuiDataGrid-iconButtonContainer {
+    visibility: visible;
+    width: auto;
+
+    & button {
+      color: #373737;
+    }
+  }
+
+  & .MuiDataGrid-columnHeader .MuiDataGrid-iconButtonContainer .MuiDataGrid-sortIcon {
+    opacity: 1;
+  }
+
+  & .MuiPaginationItem-root.Mui-selected {
+    background-color: #008BD0;
+  }
+}

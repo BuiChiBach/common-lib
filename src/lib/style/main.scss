@@ -1,0 +1,41 @@
+@import 'color';
+@import 'font';
+
+body {
+  font-family: $font_0, $font_1;
+  font-size: 14px;
+  color: $color_gravel;
+}
+
+h1 {
+  margin: 0 0 20px 0;
+  font-weight: 600;
+  font-size: 26px;
+  color: $color_lucky_point;
+}
+
+h2 {
+  margin: 0 0 25px 0;
+  font-weight: 600;
+  font-size: 21px;
+}
+
+a,
+a:link,
+a:hover,
+a:active{
+  text-decoration: none;
+  transition: 300ms;
+}
+a, a:link{
+  color: $color_cerulean;
+}
+a:hover{
+  color: $color_ocean_blue;
+}
+a:active{
+ color: #0662a8;
+}
+a:focus {
+  outline: none;
+}
